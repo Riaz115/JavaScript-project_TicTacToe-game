@@ -1,0 +1,73 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: rgb(82, 75, 175);
+  text-align: center;
+}
+/* this style is forthe winner part after wining the game */
+
+.winerpart {
+  height: 830px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/* this class is for hide */
+.hide {
+  display: none;
+}
+
+/* for the winner text */
+.cmntfrwnr {
+  font-size: 40px;
+  color: red;
+}
+
+/* this is styling for the new game butotn */
+.newgamebtn {
+  border-radius: 1rem;
+  border: none;
+  background-color: rgb(190, 25, 129);
+  padding: 10px;
+}
+/* this is for the button and buttonbox */
+.gamebox {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* this is for the buttonbox */
+.buttonsbox {
+  height: 230px;
+  width: 290px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
+}
+/* this is for the every button */
+.button {
+  height: 70px;
+  width: 70px;
+  border: none;
+  border-radius: 1rem;
+  font-size: 40px;
+  background-color: aquamarine;
+  margin-bottom: 3px;
+}
+/* this is for the reset button */
+.resetbtn {
+  border: none;
+  border-radius: 1rem;
+  padding: 10px;
+  margin-top: 70px;
+  background-color: black;
+  color: white;
+}
